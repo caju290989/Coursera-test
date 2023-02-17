@@ -1,0 +1,115 @@
+body {
+
+    font-size: 16px;
+    color:#333333;
+    background-color: #fafafa;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/** header **/
+
+.navbar {
+  border:2px solid #333333;
+  background-color: #d7d8d6;
+}
+
+.navbar-brand {
+    font-size:2em;
+    font-weight: bold;
+}
+
+
+  
+.nav-item {
+  text-align:center;
+  border-bottom:1px solid #333333;
+  text-decoration:none;
+  font-weight: bold;
+   
+}
+
+/** End header **/
+
+/** Body content **/
+
+.title {
+  margin:16px auto 32px;
+}
+
+#body-title {
+  text-align: center;
+  font-size:2em;
+
+}
+
+/** tile styles **/
+
+.col-md-12, col-sm-12, col-xs-12 {
+  background-color:#f3f3f3;
+  padding:20px;
+  margin-bottom:24px;
+  height:1000px;
+}
+
+.tile-title {
+  text-align:center;
+  font-size:1.2em;
+  font-weight:bold;
+  
+}
+
+.backtotop {
+  height:64px;
+  width:100%;
+  background-color: #333333;
+  color:#ffffff;
+  font-size: 1.2em;
+  text-align: center;
+  padding:16px;
+  text-decoration: none;
+  vertical-align: middle;
+  margin-bottom: 40px;
+}
+
+
+/** End Body content **/
+
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    /* End Header */
+
+    /** homepage body **/
+
+}
+
+  /********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /** End header **/
+
+    /** homepage body **/
+
+
+}
+  
+  /********** Extra small devices only **********/
+@media (max-width: 767px) {
+      /* Header */
+    .navbar-brand h1 {
+        font-size: 1em;
+        font-weight: 500;
+    }
+
+    /** End header **/
+
+    /** homepage body **/
+    #home-tile {
+      margin-right:40px;
+      margin-left:40px;
+    }
+
+  
+}
